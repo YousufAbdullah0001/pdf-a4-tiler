@@ -51,19 +51,22 @@ Overlap: 0–24.9 mm (default: 5 mm)
 Reference Scale: 10 mm or 20 mm
 Click "Convert All PDFs" — output appears in A4_Tiled/ subfolder.
 
-##**Output Structure**
+
 
 ## 📁 Output
-   input/
+
+input/
 ├── a.pdf
 ├── b.pdf
 └── A4_Tiled/
 ├── a_A4_Tiled.pdf
 └── b_A4_Tiled.pdf
+
+
    
 
 
-##**Printing Tips**
+## **Printing Tips**
 Set printer to 100% scale (disable "Fit to page")
 Use the scale bar to verify accuracy
 Align sheets using crosshair marks
