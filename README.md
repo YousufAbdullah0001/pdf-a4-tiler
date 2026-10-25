@@ -54,17 +54,16 @@ Click "Convert All PDFs" — output appears in A4_Tiled/ subfolder.
 ##**Output Structure**
 
 ## 📁 Output
-
-your_folder/
-├── blueprint.pdf
-├── poster.pdf
+   input/
+├── a.pdf
+├── b.pdf
 └── A4_Tiled/
-├── blueprint_A4_Tiled.pdf
-└── poster_A4_Tiled.pdf
+├── a_A4_Tiled.pdf
+└── b_A4_Tiled.pdf
+   
 
 
-
-#**Printing Tips**
+##**Printing Tips**
 Set printer to 100% scale (disable "Fit to page")
 Use the scale bar to verify accuracy
 Align sheets using crosshair marks
