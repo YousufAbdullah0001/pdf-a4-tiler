@@ -53,15 +53,17 @@ Click "Convert All PDFs" — output appears in A4_Tiled/ subfolder.
 
 
 
-## 📁 Output
+## Output
 
+```text
 input/
 ├── a.pdf
 ├── b.pdf
 └── A4_Tiled/
-├── a_A4_Tiled.pdf
-└── b_A4_Tiled.pdf
+    ├── a_A4_Tiled.pdf
+    └── b_A4_Tiled.pdf
 
+```
 
    
 
