@@ -1,4 +1,4 @@
-# PDF → A4 Tiler
+## PDF → A4 Tiler
 
 Split large PDF pages into A4 sheets at **true 100% scale** — no scaling, no rasterization.
 
@@ -27,7 +27,7 @@ Split large PDF pages into A4 sheets at **true 100% scale** — no scaling, no r
 ##  **Installation**
 
 
-# 1. Create virtual environment (optional but recommended)
+## 1. Create virtual environment (optional but recommended)
 ```
 python -m venv venv
 venv\Scripts\activate        # Windows
@@ -37,7 +37,7 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 ```
 
-**Usage**
+##**Usage**
 
 Launch:
 
@@ -45,24 +45,26 @@ Launch:
 
 Select folder containing your PDF files (Browse button).
 
-**Configure:**
+##**Configure:**
 A4 Orientation: Portrait / Landscape
 Overlap: 0–24.9 mm (default: 5 mm)
 Reference Scale: 10 mm or 20 mm
 Click "Convert All PDFs" — output appears in A4_Tiled/ subfolder.
 
-**Output Structure**
+##**Output Structure**
+
+## 📁 Output
 
 your_folder/
-├── blueprint.pdf          ← original (unchanged)
-├── poster.pdf             ← original (unchanged)
+├── blueprint.pdf
+├── poster.pdf
 └── A4_Tiled/
-    ├── blueprint_A4_Tiled.pdf
-    └── poster_A4_Tiled.pdf   
+├── blueprint_A4_Tiled.pdf
+└── poster_A4_Tiled.pdf
 
 
 
-**Printing Tips**
+#**Printing Tips**
 Set printer to 100% scale (disable "Fit to page")
 Use the scale bar to verify accuracy
 Align sheets using crosshair marks
