@@ -46,10 +46,10 @@ Launch:
 Select folder containing your PDF files (Browse button).
 
 ## **Configure:**
--A4 Orientation: Portrait / Landscape
--Overlap: 0–24.9 mm (default: 5 mm)
--Reference Scale: 10 mm or 20 mm
--Click "Convert All PDFs" — output appears in A4_Tiled/ subfolder.
+> A4 Orientation: Portrait / Landscape
+> Overlap: 0–24.9 mm (default: 5 mm)
+> Reference Scale: 10 mm or 20 mm
+> Click "Convert All PDFs" — output appears in A4_Tiled/ subfolder.
 
 
 
@@ -69,8 +69,8 @@ input/
 
 
 ## **Printing Tips**
--Set printer to 100% scale (disable "Fit to page")
--Use the scale bar to verify accuracy
--Align sheets using crosshair marks
--Crop along the tick marks (outside artwork)
+> Set printer to 100% scale (disable "Fit to page")
+> Use the scale bar to verify accuracy
+> Align sheets using crosshair marks
+> Crop along the tick marks (outside artwork)
 
