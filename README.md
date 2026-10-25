@@ -38,7 +38,9 @@ pip install -r requirements.txt
 ```
 
 **Usage**
+
 Launch:
+
 ```python main.py```
 
 Select folder containing your PDF files (Browse button).
@@ -50,10 +52,19 @@ Reference Scale: 10 mm or 20 mm
 Click "Convert All PDFs" — output appears in A4_Tiled/ subfolder.
 
 **Output Structure**
+
 your_folder/
 ├── blueprint.pdf          ← original (unchanged)
 ├── poster.pdf             ← original (unchanged)
 └── A4_Tiled/
     ├── blueprint_A4_Tiled.pdf
     └── poster_A4_Tiled.pdf   
+
+
+
+**Printing Tips**
+Set printer to 100% scale (disable "Fit to page")
+Use the scale bar to verify accuracy
+Align sheets using crosshair marks
+Crop along the tick marks (outside artwork)
 
